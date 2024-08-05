@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "pwh11"
+version = "0.1.0"
+description = ""
+authors = ["AlexMois77 <159935651+AlexMois77@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.111.1"
+uvicorn = {extras = ["standard"], version = "^0.30.1"}
+sqlalchemy = "^2.0.31"
+alembic = "^1.13.2"
+python-jose = "^3.3.0"
+passlib = "^1.7.4"
+bcrypt = "^4.2.0"
+python-dotenv = "^1.0.1"
+fastapi-mail = "^1.4.1"
+aioredis = "^2.0.1"
+cloudinary = "^1.41.0"
+fastapi-limiter = "^0.1.6"
+redis = "^5.0.8"
+psycopg2-binary = "^2.9.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
